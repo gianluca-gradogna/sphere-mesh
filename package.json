@@ -1,0 +1,25 @@
+{
+  "name": "three-sketch",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1",
+    "vite": "^4.3.2",
+    "vite-plugin-glslify": "^2.0.1"
+  },
+  "dependencies": {
+    "detect-gpu": "^5.0.24",
+    "glsl-blend": "^1.0.3",
+    "glsl-fxaa": "^3.0.0",
+    "gsap": "^3.11.5",
+    "three": "^0.152.2",
+    "tiny-emitter": "^2.1.0",
+    "tweakpane": "^3.1.9"
+  }
+}
