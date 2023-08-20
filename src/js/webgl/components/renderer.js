@@ -9,6 +9,7 @@ class Renderer extends WebGLRenderer {
     super({
       powerPreference: 'high-performance',
       antialiasing: false,
+      alpha: true,
     })
 
     this.setClearColor(new Color("#191715"));
